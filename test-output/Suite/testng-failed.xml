@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.actitime_automation_project.script.VerfyInvalidLoginPageE">
+        <methods>
+          <include name="VerfyInvalidLoginPageE1"/>
+          <include name="postcondtion"/>
+          <include name="precondtion"/>
+        </methods>
+      </class> <!-- com.actitime_automation_project.script.VerfyInvalidLoginPageE -->
+      <class name="com.actitime_automation_project.script.Verfytasks">
+        <methods>
+          <include name="postcondtion"/>
+          <include name="verfyvalidloginpage"/>
+          <include name="precondtion"/>
+        </methods>
+      </class> <!-- com.actitime_automation_project.script.Verfytasks -->
+      <class name="com.actitime_automation_project.script.Verfyinvalidpage">
+        <methods>
+          <include name="postcondtion"/>
+          <include name="precondtion"/>
+          <include name="Verfyinvalidpage1"/>
+        </methods>
+      </class> <!-- com.actitime_automation_project.script.Verfyinvalidpage -->
+      <class name="com.actitime_automation_project.script.verfyversionE">
+        <methods>
+          <include name="postcondtion"/>
+          <include name="precondtion"/>
+          <include name="verfyversionE1"/>
+        </methods>
+      </class> <!-- com.actitime_automation_project.script.verfyversionE -->
+      <class name="com.actitime_automation_project.script.Verfycheckbox">
+        <methods>
+          <include name="verfycheckbox"/>
+          <include name="postcondtion"/>
+          <include name="precondtion"/>
+        </methods>
+      </class> <!-- com.actitime_automation_project.script.Verfycheckbox -->
+      <class name="com.actitime_automation_project.script.VerfyTitel">
+        <methods>
+          <include name="postcondtion"/>
+          <include name="precondtion"/>
+          <include name="VerfyTitel1"/>
+        </methods>
+      </class> <!-- com.actitime_automation_project.script.VerfyTitel -->
+      <class name="com.actitime_automation_project.script.VerfyValidLoginPageE">
+        <methods>
+          <include name="postcondtion"/>
+          <include name="precondtion"/>
+          <include name="VerfyValidLoginPageE1"/>
+        </methods>
+      </class> <!-- com.actitime_automation_project.script.VerfyValidLoginPageE -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
